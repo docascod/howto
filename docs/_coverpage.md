@@ -9,4 +9,4 @@
 - Create your custom themes
 
 [GitHub](https://github.com/docascod/DocsAsCode)
-[Get Started](#start)
+[Get Started](#DocsAsCode)
