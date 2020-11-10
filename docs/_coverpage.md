@@ -4,8 +4,7 @@
 
 > A professional documentation toolset.
 
-- Write with your favorite doc language (md, rst, adoc)
-- Use your favorite tool
+- Write in md, rst, or adoc
 - Create custom themes
 - Build in CI workflow
 
