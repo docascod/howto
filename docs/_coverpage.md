@@ -9,4 +9,4 @@
 - Build in CI workflow
 
 [GitHub](https://github.com/docascod/DocsAsCode)
-[Get Started](#DocsAsCode)
+[Get Started](#main)
