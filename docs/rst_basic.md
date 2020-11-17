@@ -1,9 +1,3 @@
-# Write your document in reStructuredText
+# Write in reStructuredText
 
-````rest
-
-### title
-
-  blabla
-
-````
+Coming soon ...

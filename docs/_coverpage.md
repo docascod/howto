@@ -5,6 +5,7 @@
 > A professional documentation toolset.
 
 - Write in md, rst, or adoc
+- Embed diagram (vega, mermaid)
 - Create custom themes
 - Build in CI workflow
 
