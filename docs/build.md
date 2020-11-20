@@ -28,7 +28,7 @@ docker run -v $PWD/:/documents/ docascod/docsascode:latest build *.md *.rst
 
 ## Environment variables
 
-`DEFAULT_DESTINATION`  : Path to output definitive document. Default value : source file folder. 
+`DEFAULT_DESTINATION`  : Path to generated document. Default value : source file folder. 
 
 !> This path must be visible from the volume set in docker command.
 
@@ -40,9 +40,9 @@ docker run -e DEFAULT_OUTPUT=output.slides -e DEFAULT_LOCATION=/documents/build/
 
 
 
-## Build with github actions
+## Build with Github actions
 
-coming soon ...
+Please consult [action description](https://github.com/marketplace/actions/build-your-docs-with-docsascode).
 
 ## Build in Gitlab CI
 
