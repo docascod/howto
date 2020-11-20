@@ -1,6 +1,6 @@
 # Metadata
 
-You can use several ways to add metadata on your document
+Several ways to add metadata into your markdown : with header, with external file.
 
 ## Header
 
@@ -8,8 +8,7 @@ You can use several ways to add metadata on your document
 ---
 title: 'document title: with subtitle'
 keywords: [example, output.slides]
-author: 
-- docsascode
+author: docsascode
 lang: en-EN
 myparam: 'Local Param'
 ---
@@ -24,7 +23,11 @@ Metadata can be stored in external YAML ou JSON file.
 This file can be set in document header :
 
 ````markdown
+---
 extra_meta: relative/path/to/your/metafile
+---
+
+your document
 ````
 
 Or just add a file with the same name as your document but with extra extension `.meta`. Example : `yourdocument.md` and `yourdocument.md.meta`
@@ -34,12 +37,20 @@ Or just add a file with the same name as your document but with extra extension 
 Metadata can be used with placeholder :
 
 ````markdown
+---
+myparam: 'Local Param'
+---
+
 The following strings have been substitued with **{myparam}**
 ````
 
 or in conditional bloc :
 
 ````markdown
+---
+myparam: 'Local Param'
+---
+
 <!-- ifeval "{myparam}" == "Local Param" -->
 This is a conditional block
 <!-- end_ifeval -->

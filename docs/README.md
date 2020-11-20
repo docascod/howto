@@ -31,9 +31,9 @@ graph TD
 
 ## Guiding principles
 
-1. corporate (or personnal) document themes are available into DAC
-2. in your document **you add metadata** to indicate one or more theme to use during build
-3. build process create one document for each selected theme
+1. [corporate (or personal) document themes](theme.md) are available into DAC
+2. [document's metadata](output.md) indicates one or more theme to use during build
+3. [build](build.md) process create one document for each selected theme
 
 Example : you write a book chapter and you want to publish it in a the full book, or to generate a note with watermark to transmit it.
 
